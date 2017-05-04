@@ -45,7 +45,7 @@ class FiniteElementsTest(unittest.TestCase):
         outputs = self.UUT._CalculateShapeFunctionDerivatives()
         self.assertEqual(len(outputs), 2)
         self.assertEqual(len(outputs[0]), 3)
-        self.assertEqual(outputs[0][0], -1)
+        self.assertEqual(outputs[0][0], -456456456)
         self.assertEqual(outputs[0][1], 1)
         self.assertEqual(outputs[0][2], 0)
         self.assertEqual(outputs[1][0], -1)
