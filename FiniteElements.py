@@ -22,6 +22,8 @@ print('#################################################################')
 print('Congratulations, <your name>, the Finite Element code is running successfully!')
 print('#################################################################')
 
+print('OOOOOHOOOOOHHHHHHHHHHOOOOOHHHHHHHH!')
+
 class FiniteElements():
     ''' This class will perform finite element analysis on a specified grid. '''
 
